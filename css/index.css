@@ -1,0 +1,364 @@
+@charset "utf-8";
+/* 内容主体 */
+.content .banner {
+  height: 400px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: flex-end;
+}
+.content .banner ul {
+  width: 300%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content .banner ul li {
+  width: 33.333333%;
+  height: 100%;
+  float: left;
+}
+.content .banner .sub-nav {
+  height: 12px;
+  position: relative;
+  z-index: 5;
+}
+.content .banner .sub-nav span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  float: left;
+  background: #dfe1e3;
+  margin-right: 4px;
+}
+.content .banner .sub-nav .active {
+  background: #01a1ff;
+}
+.content .banner > span {
+  position: absolute;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+}
+.content .banner .prev {
+  left: 44px;
+  background: url(../img/index-xb2.png);
+}
+.content .banner .prev:hover {
+  background: url(../img/index-xb4.png);
+}
+.content .banner .next {
+  right: 44px;
+  background: url(../img/index-xb1.png);
+}
+.content .banner .next:hover {
+  background: url(../img/index-xb3.png);
+}
+.content .main .culture .container {
+  height: 372px;
+}
+.content .main .culture .container div {
+  float: left;
+  width: 319px;
+}
+.content .main .culture .container div:nth-of-type(1) span {
+  margin: 55px auto 23px;
+  width: 44px;
+  height: 44px;
+  background: url(../img/index-cultural01.png);
+}
+.content .main .culture .container div:nth-of-type(2) span {
+  width: 41px;
+  height: 40px;
+  margin: 57px auto 25px;
+  background: url(../img/index-cultural02.png);
+}
+.content .main .culture .container div:nth-of-type(3) span {
+  width: 46px;
+  height: 40px;
+  margin: 57px auto 25px;
+  background: url(../img/index-cultural03.png);
+}
+.content .main .culture .container div:nth-of-type(4) span {
+  width: 38px;
+  height: 40px;
+  margin: 55px auto 23px;
+  background: url(../img/index-cultural04.png);
+}
+.content .main .culture .container div span {
+  display: block;
+}
+.content .main .culture .container div h3 {
+  height: 77px;
+}
+.content .main .culture .container div h3 p:nth-of-type(1) {
+  height: 19px;
+  text-align: center;
+  color: #333333;
+  font-size: 15px;
+  font-weight: bold;
+}
+.content .main .culture .container div h3 p:nth-of-type(2) {
+  height: 20px;
+  text-align: center;
+  color: #666666;
+  font-size: 14px;
+  margin-bottom: 19px;
+}
+.content .main .culture .container div > p {
+  padding: 0 47px;
+  line-height: 24px;
+  color: #999999;
+  font-size: 12px;
+  text-align: center;
+}
+.content .main .product .container {
+  overflow: hidden;
+}
+.content .main .product .container > div {
+  width: 320px;
+  box-sizing: border-box;
+  padding-top: 240px;
+  float: left;
+}
+.content .main .product .container > div a {
+  float: left;
+  width: 320px;
+  height: 29px;
+}
+.content .main .product .container > div div {
+  height: 29px;
+  background: #e5e5e5;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.content .main .product .container > div div p {
+  color: #333333;
+  line-height: 29px;
+  background: url(../img/index_icon_05.gif) no-repeat 267px 7px;
+}
+.content .main .product .container > div:nth-of-type(1) {
+  background: url(../img/pro-center1.jpg);
+}
+.content .main .product .container > div:nth-of-type(2) {
+  background: url(../img/pro-center2.jpg);
+}
+.content .main .product .container > div:nth-of-type(3) {
+  background: url(../img/pro-center3.jpg);
+}
+.content .main .product .container > div:nth-of-type(4) {
+  background: url(../img/pro-center4.jpg);
+}
+.content .main .product .container > div:nth-of-type(5) {
+  background: url(../img/pro-center5.jpg);
+}
+.content .main .product .container > div:nth-of-type(6) {
+  position: relative;
+  background: url(../img/pro-center6.jpg);
+}
+.content .main .product .container > div:nth-of-type(6) span {
+  position: absolute;
+  top: 122px;
+  width: 32px;
+  height: 32px;
+}
+.content .main .product .container > div:nth-of-type(6) .next {
+  left: 20px;
+  background: url(../img/index-xb1.png);
+}
+.content .main .product .container > div:nth-of-type(6) .next:hover {
+  background: url(../img/index-xb3.png);
+}
+.content .main .product .container > div:hover div {
+  background: #01a1ff;
+}
+.content .main .product .container > div:hover div p {
+  background: url(../img/index_icon_03.jpg) no-repeat 267px 7px;
+}
+.content .main .product .container .active {
+  background: #01a1ff;
+  color: #fff;
+}
+.content .main .product .container .active p {
+  background: url(../img/index_icon_03.jpg) no-repeat 267px 7px;
+}
+.content .main .news {
+  margin-top: 83px;
+}
+.content .main .news .container {
+  height: 394px;
+}
+.content .main .news .container .cooker {
+  float: left;
+  width: 557px;
+  height: 314px;
+  margin-left: 33px;
+  background: url(../img/cooker.gif);
+}
+.content .main .news .container .list {
+  margin-left: 40px;
+  width: 607px;
+  height: 314px;
+  float: left;
+  box-sizing: border-box;
+}
+.content .main .news .container .list .hot {
+  height: 88px;
+  background: url(../img/date.jpg) no-repeat;
+  padding-left: 80px;
+}
+.content .main .news .container .list .hot h3 {
+  color: #01a1ff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.content .main .news .container .list .hot > p {
+  color: #999999;
+  font-size: 12px;
+}
+.content .main .news .container .list ul li {
+  height: 38px;
+  line-height: 38px;
+  box-sizing: border-box;
+  border-top: 1px dotted #cccccc;
+  list-style: inside square;
+}
+.content .main .news .container .list ul li:nth-of-type(6) {
+  border-bottom: 1px dotted #cccccc;
+}
+.content .main .video .container {
+  height: 431px;
+  width: 1317px;
+  margin: 0 auto;
+  position: relative;
+}
+.content .main .video .container .active {
+  box-shadow: 1px 1px 9px #01a1ff;
+}
+.content .main .video .container > div:hover {
+  box-shadow: 1px 1px 9px #01a1ff;
+}
+.content .main .video .container > div:hover .play {
+  width: 54px;
+  height: 54px;
+  top: 72px;
+  left: 105px;
+  background: url(../img/bofang1.jpg) no-repeat;
+}
+.content .main .video .container > div:hover h3 {
+  color: #01a1ff;
+}
+.content .main .video .container > div {
+  width: 260px;
+  height: 287px;
+  margin-left: 58px;
+  float: left;
+}
+.content .main .video .container > div .img {
+  width: 260px;
+  height: 196px;
+  margin: 0 auto;
+  position: relative;
+}
+.content .main .video .container > div .img span {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 0.8;
+  background: url(../img/bofang2.jpg) no-repeat;
+  top: 76px;
+  left: 108px;
+}
+.content .main .video .container > div h3 {
+  text-align: center;
+  color: #333333;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.content .main .video .container > div p {
+  color: #999999;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 12px;
+}
+.content .main .video .container > div:nth-of-type(1) h3 {
+  color: #01a1ff;
+}
+.content .main .video .container > div:nth-of-type(1) .img {
+  background: url(../img/video_01.jpg) no-repeat;
+}
+.content .main .video .container > div:nth-of-type(1) .img span {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  overflow: hidden;
+  top: 72px;
+  left: 105px;
+  background: url(../img/bofang1.jpg) no-repeat;
+  opacity: 0.8;
+}
+.content .main .video .container > div:nth-of-type(2) .img {
+  background: url(../img/video_02.jpg) no-repeat;
+}
+.content .main .video .container > div:nth-of-type(3) .img {
+  background: url(../img/video_03.jpg) no-repeat;
+}
+.content .main .video .container > div:nth-of-type(4) .img {
+  background: url(../img/video_04.jpg) no-repeat;
+}
+.content .main .video .container > span {
+  position: absolute;
+  top: 85px;
+  width: 28px;
+  height: 28px;
+}
+.content .main .video .container .prev {
+  float: left;
+  left: 0px;
+  background: url(../img/index-xb2.png);
+  background-size: 28px;
+}
+.content .main .video .container .prev:hover {
+  background: url(../img/index-xb4.png);
+  background-size: 28px;
+}
+.content .main .video .container .next {
+  right: 0px;
+  background: url(../img/index-xb1.png);
+  background-size: 28px;
+}
+.content .main .video .container .next:hover {
+  background: url(../img/index-xb3.png);
+  background-size: 28px;
+}
+/* 公共标题 */
+.title {
+  height: 192px;
+  padding-top: 38px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.title h2 {
+  font-size: 34px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+.title img {
+  float: left;
+  width: 42px;
+  height: 4px;
+  margin-left: 611px;
+}
+.title p {
+  float: left;
+  width: 1023px;
+  text-align: center;
+  margin-left: 122px;
+  margin-top: 30px;
+  font-size: 14px;
+}

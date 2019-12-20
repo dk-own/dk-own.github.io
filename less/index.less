@@ -1,0 +1,390 @@
+@charset "utf-8";
+/* 内容主体 */
+.content{
+	.banner{
+		height: 400px;
+		position:relative;
+		display:flex;
+		overflow: hidden;
+		justify-content: center;
+		align-items: flex-end;
+		ul{
+			width: 300%;
+			height: 100%;
+			position: absolute;
+			top:0;
+			left:0;
+			li{
+				width: 33.333333%;
+				height: 100%;
+				float: left;
+			}
+		}
+		.sub-nav{
+			height: 12px;
+			position:relative;
+			z-index:5;
+			span{
+				width: 12px;
+				height: 12px;
+				border-radius: 50px;
+				float: left;
+				background: #dfe1e3;
+				margin-right: 4px;
+			}
+			.active{
+				background: #01a1ff;
+			}
+		}
+		&>span{
+			position: absolute;
+			top:50%;
+			width: 32px;
+			height: 32px;
+		}
+		.prev{
+			left:44px;
+			background: url(../img/index-xb2.png);
+			&:hover{
+				background: url(../img/index-xb4.png);
+			}
+		}
+		.next{
+			right:44px;
+			background: url(../img/index-xb1.png);
+			&:hover{
+				background: url(../img/index-xb3.png);
+			}
+		}
+	}
+	
+	.main{
+		.culture{
+			.container{
+				height: 372px;
+				div{
+					float: left;
+					width: 319px;
+					&:nth-of-type(1) span{
+						margin: 55px auto 23px;
+						width: 44px;
+						height: 44px;
+						background: url(../img/index-cultural01.png);
+					}
+					&:nth-of-type(2) span{
+						width: 41px;
+						height: 40px;
+						margin: 57px auto 25px;
+						background: url(../img/index-cultural02.png);
+					}
+					&:nth-of-type(3) span{
+						width: 46px;
+						height: 40px;
+						margin: 57px auto 25px;
+						background: url(../img/index-cultural03.png);
+					}
+					&:nth-of-type(4) span{
+						width: 38px;
+						height: 40px;
+						margin: 55px auto 23px;
+						background: url(../img/index-cultural04.png);
+					}
+					span{
+						display: block;
+					}
+					h3{
+						height: 77px;
+						p:nth-of-type(1){
+							height: 19px;
+							text-align: center;
+							color: #333333;
+							font-size: 15px;
+							font-weight: bold;
+						}
+						p:nth-of-type(2){
+							height: 20px;
+							text-align: center;
+							color: #666666;
+							font-size: 14px;
+							margin-bottom: 19px;
+						}
+					}
+					&>p{
+						padding:  0 47px;
+						line-height: 24px;
+						color: #999999;
+						font-size: 12px;
+						text-align: center;
+					}
+				}
+			}
+		}
+		.product{
+			.container{
+				overflow:hidden;
+				&>div{
+					width: 320px;
+					box-sizing: border-box;
+					padding-top: 240px;
+					float:left;
+					a{
+						float: left;
+						width: 320px;
+						height: 29px;
+					}
+					div{
+						height: 29px;
+						background: #e5e5e5;
+						box-sizing:border-box;
+						padding-left:15px;
+						p{
+							color:#333333;
+							line-height: 29px;
+							background: url(../img/index_icon_05.gif) no-repeat 267px 7px;
+						}
+					}
+				}
+				&>div:nth-of-type(1){
+					background: url(../img/pro-center1.jpg);
+				}
+				&>div:nth-of-type(2){
+					background: url(../img/pro-center2.jpg);
+				}
+				&>div:nth-of-type(3){
+					background: url(../img/pro-center3.jpg);
+				}
+				&>div:nth-of-type(4){
+					background: url(../img/pro-center4.jpg);
+				}
+				&>div:nth-of-type(5){
+					background: url(../img/pro-center5.jpg);
+				}
+				&>div:nth-of-type(6){
+					position:relative;
+					background: url(../img/pro-center6.jpg);
+					span{
+						position: absolute;
+						top:122px;
+						width: 32px;
+						height: 32px;
+					}
+					.next{
+						left: 20px;
+						background: url(../img/index-xb1.png);
+						&:hover{
+							background: url(../img/index-xb3.png);
+						}
+					}
+				}
+				&>div:hover div{
+					background: #01a1ff;
+					p{
+						background: url(../img/index_icon_03.jpg) no-repeat 267px 7px;
+					}
+				}
+				.active{
+					background: #01a1ff;
+					color: #fff;
+					p{
+						background: url(../img/index_icon_03.jpg) no-repeat 267px 7px;
+					}
+				}
+			}
+		}
+		.news{
+			margin-top:83px;
+			.container{
+				height:394px;
+				.cooker{
+					float: left;
+					width: 557px;
+					height: 314px;
+					margin-left: 33px;
+					background: url(../img/cooker.gif);
+				}
+				.list{
+					margin-left: 40px;
+					width: 607px;
+					height: 314px;
+					float: left;
+					box-sizing:border-box;
+					.hot{
+						height: 88px;
+						background: url(../img/date.jpg) no-repeat;
+						padding-left:80px;
+						h3{
+							color: #01a1ff;
+							font-size: 18px;
+							margin-bottom: 10px;
+						}
+						&>p{
+							color: #999999;
+							font-size: 12px;
+						}
+					}
+					ul{
+						li{
+							height: 38px;
+							line-height: 38px;
+							box-sizing: border-box;
+							border-top:1px dotted #cccccc;
+							list-style: inside square;
+							&:nth-of-type(6){
+								border-bottom: 1px dotted #cccccc;
+							}
+						}
+					}
+				}
+			}
+		}
+		.video{
+			.container{
+				height: 431px;
+				width: 1317px;
+				margin: 0 auto;
+				position:relative;
+				.active{
+					box-shadow: 1px 1px 9px #01a1ff;
+				}
+				&>div:hover{
+					box-shadow: 1px 1px 9px #01a1ff;
+					.play{
+						width: 54px;
+						height: 54px;
+						top: 72px;
+						left: 105px;
+						background: url(../img/bofang1.jpg) no-repeat;
+					}
+					h3{
+						color: #01a1ff;
+					}
+				}
+				&>div{
+					width: 260px;
+					height: 287px;
+					margin-left: 58px;
+					float: left;
+					.img{
+						width: 260px;
+						height: 196px;
+						margin: 0 auto;
+						position:relative;
+						span{
+							width: 45px;
+							height: 45px;
+							position: absolute;
+							border-radius: 50%;
+							overflow: hidden;
+							opacity: 0.8;
+							background: url(../img/bofang2.jpg) no-repeat;
+							top: 76px;
+							left: 108px;
+						}
+					}
+					h3{
+						text-align: center;
+						color: #333333;
+						font-size: 16px;
+						margin-top: 20px;
+					}
+					p{
+						color: #999999;
+						font-size: 12px;
+						text-align: center;
+						margin-top: 12px;
+					}
+					&:nth-of-type(1){
+						h3{
+							color: #01a1ff;
+						}
+						.img{
+							background: url(../img/video_01.jpg) no-repeat;
+							span{
+								width: 54px;
+								height: 54px;
+								border-radius: 50%;
+								overflow: hidden;
+								top: 72px;
+								left: 105px;
+								background: url(../img/bofang1.jpg) no-repeat;
+								opacity: 0.8;
+							}
+						}
+					}
+					&:nth-of-type(2){
+						.img{
+							background: url(../img/video_02.jpg) no-repeat;
+						}
+					}
+					&:nth-of-type(3){
+						.img{
+							background: url(../img/video_03.jpg) no-repeat;
+						}
+					}
+					&:nth-of-type(4){
+						.img{
+							background: url(../img/video_04.jpg) no-repeat;
+						}
+					}
+					
+				}
+				
+				
+				
+				
+				&>span{
+					position: absolute;
+					top:85px;
+					width: 28px;
+					height: 28px;
+				}
+				.prev{
+					float: left;
+					left:0px;
+					background: url(../img/index-xb2.png);
+					background-size:28px;
+					&:hover{
+						background: url(../img/index-xb4.png);
+						background-size:28px;
+					}
+				}
+				.next{
+					right:0px;
+					background: url(../img/index-xb1.png);
+					background-size:28px;
+					&:hover{
+						background: url(../img/index-xb3.png);
+						background-size:28px;
+					}
+				}
+			}
+		}
+	}
+}
+/* 公共标题 */
+.title{
+		height: 192px;
+		padding-top:38px;
+		text-align: center;
+		box-sizing:border-box;
+		h2{
+			font-size: 34px;
+			color: #000;
+			font-weight: bold;
+			text-align: center;
+		}
+		img{
+			float: left;
+			width: 42px;
+			height: 4px;
+			margin-left: 611px;
+		}
+		p{
+			float: left;
+			width: 1023px;
+			text-align: center;
+			margin-left:122px;
+			margin-top: 30px;
+			font-size: 14px;
+		}
+	}

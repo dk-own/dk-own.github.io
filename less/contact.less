@@ -1,0 +1,233 @@
+@charset "utf-8";
+.content{
+	.banner{
+		width:1920px;
+		height: 400px;
+		position:relative;
+		overflow: hidden;
+		ul{
+			width: 300%;
+			height: 100%;
+			position: absolute;
+			top:0;
+			left:0;
+			li{
+				width: 33.333333%;
+				height: 100%;
+				float: left;
+			}
+		}
+		.sub-nav{
+			position: absolute;
+			bottom:0;
+			left:50%;
+			height: 12px;
+			span{
+				width: 12px;
+				height: 12px;
+				border-radius: 50px;
+				float: left;
+				background: #dfe1e3;
+				margin-right: 4px;
+			}
+			.active{
+				background: #01a1ff;
+			}
+		}
+		&>span{
+			position: absolute;
+			top:50%;
+			width: 32px;
+			height: 32px;
+		}
+		.prev{
+			left:44px;
+			background: url(../img/index-xb2.png);
+			&:hover{
+				background: url(../img/index-xb4.png);
+			}
+		}
+		.next{
+			right:44px;
+			background: url(../img/index-xb1.png);
+			&:hover{
+				background: url(../img/index-xb3.png);
+			}
+		}
+	}
+	
+	.sidebar{
+		width: 1266px;
+		margin: 0 auto;
+		overflow: hidden;
+		.sidebar-left{
+			width: 245px;
+			padding: 60px 0 0 34px;
+			div{
+				width:200px;
+				height:242px;
+				box-sizing: border-box;
+				border:1px solid #01a1ff;
+				h3{
+					background: #01a1ff;
+					height: 110px;
+					p:nth-of-type(1){
+						height: 29px;
+						text-align: center;
+						padding-top: 32px;
+						color: #fff;
+						font-size: 16px;
+						background: url(../img/about_icon_07.jpg)no-repeat center bottom;
+					}
+					p:nth-of-type(2){
+						color: #fff;
+						font-size: 14px;
+						text-align: center;
+						line-height: 34px;
+					}
+				}
+				&>p{
+					color: #01a1ff;
+					font-size: 16px;
+					height: 25px;
+					line-height: 25px;
+					text-align: center;
+					box-sizing: border-box;
+					&:nth-of-type(1){
+						margin-top: 16px;
+					}
+					span{
+						border-bottom: 2px solid #01a1ff;
+					}
+				}
+			}
+			.search{
+				width:200px;
+				height: 165px;
+				margin-top: 40px;
+				input{
+					width: 174px;
+					height: 36px;
+					display: block;
+					border: 1px solid #cccccc;
+					margin: 8px auto;
+					background: url(../img/iconfont-fangdajing.jpg) no-repeat 151px 9px;
+				}
+			}
+		}
+	}
+	.sidebar-right{
+			width: 972px;
+			padding-top: 60px;
+			.current{
+				height: 46px;
+				box-sizing: border-box;
+				border-bottom:1px solid #d3d3d3;
+				h3{
+					padding-left: 31px;
+					box-sizing: border-box;
+					float: left;
+					font-size: 26px;
+					color: #33333;
+					background:url(../img/shuxian.gif) no-repeat 20px 0;
+					span{
+						font-size: 10px;
+						vertical-align: bottom;
+						color: #666666;
+					}
+				}
+				p{
+					float: right;
+					line-height: 46px;
+					color:#999999;
+					padding-right:20px;
+					span{
+						color:#01a1ff;
+					}
+				}
+			}
+			.content{
+				padding: 32px 7px 120px 20px;
+				overflow:hidden;
+				span{
+					float: left;
+					width: 560px;
+					height: 308px;
+					padding: 0 32px 0 0;
+					background: url(../img/zhuozi.jpg) no-repeat;
+				}
+				&>p{
+					font-size: 14px;
+					text-indent: 2em;
+					line-height: 24px;
+					margin-bottom: 27px;
+				}
+				iframe{
+					
+					margin-bottom: 22px;
+				}
+				.input{
+					width: 945px;
+					overflow:hidden;
+					.input-left{
+						padding-right:75px;
+						h3{
+							font-size: 19px;
+							margin-bottom: 18px;
+						}
+						div{
+							margin-bottom:10px;
+							p{
+								float: left;
+								vertical-align: bottom;
+								margin-top: 3px;
+								font-size: 15px;
+							}
+							input{
+								width: 278px;
+								height: 28px;
+								border: 1px solid #cccccc;
+							}
+							textarea{
+								width: 435px;
+								height: 114px;
+								box-sizing: border-box;
+								border: 1px solid #cccccc;
+								resize: none;
+								overflow: hidden;
+							}
+							button{
+								width: 95px;
+								height: 30px;
+								&:nth-of-type(1){
+									background: #01a1ff;
+									color: #fff;
+									margin-right: 20px;
+								}
+								&:nth-of-type(2){
+									background: #fff;
+									box-sizing: border-box;
+									border: 1px solid #cccccc;
+									color: #999999;
+								}
+							}
+							&:nth-of-type(4){
+								margin: 0;
+							}
+						}
+					}
+					.input-right{
+						h3{
+							font-size: 19px;
+							margin-bottom: 9px;
+						}
+						p{
+							line-height: 32px;
+							font-size: 14px;
+							color: #666666;
+						}
+					}
+				}
+			}
+	}
+}

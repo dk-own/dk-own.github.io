@@ -1,0 +1,255 @@
+@charset "utf-8";
+.content{
+	.banner{
+		width:1920px;
+		height: 400px;
+		position:relative;
+		overflow: hidden;
+		ul{
+			width: 300%;
+			height: 100%;
+			position: absolute;
+			top:0;
+			left:0;
+			li{
+				width: 33.333333%;
+				height: 100%;
+				float: left;
+			}
+		}
+		.sub-nav{
+			position: absolute;
+			bottom:0;
+			left:50%;
+			height: 12px;
+			span{
+				width: 12px;
+				height: 12px;
+				border-radius: 50px;
+				float: left;
+				background: #dfe1e3;
+				margin-right: 4px;
+			}
+			.active{
+				background: #01a1ff;
+			}
+		}
+		&>span{
+			position: absolute;
+			top:50%;
+			width: 32px;
+			height: 32px;
+		}
+		.prev{
+			left:44px;
+			background: url(../img/index-xb2.png);
+			&:hover{
+				background: url(../img/index-xb4.png);
+			}
+		}
+		.next{
+			right:44px;
+			background: url(../img/index-xb1.png);
+			&:hover{
+				background: url(../img/index-xb3.png);
+			}
+		}
+	}
+	
+	.sidebar{
+		width: 1266px;
+		margin: 0 auto;
+		overflow: hidden;
+		.sidebar-left{
+			width: 245px;
+			padding: 60px 0 0 34px;
+			div{
+				width:200px;
+				height:340px;
+				box-sizing: border-box;
+				border:1px solid #01a1ff;
+				h3{
+					background: #01a1ff;
+					height: 110px;
+					p:nth-of-type(1){
+						height: 29px;
+						text-align: center;
+						padding-top: 32px;
+						color: #fff;
+						font-size: 16px;
+						background: url(../img/about_icon_07.jpg)no-repeat center bottom;
+					}
+					p:nth-of-type(2){
+						color: #fff;
+						font-size: 14px;
+						text-align: center;
+						line-height: 34px;
+					}
+				}
+				ul{
+					padding-top: 9px;
+						
+					li{
+						
+						width: 172px;
+						height: 28px;
+						border-radius: 8px;
+						margin: 0 auto;
+						margin-bottom: 18px;
+						background:url(../img/about_icon_14.jpg) no-repeat #fff 34px 13px;
+						a{
+							float: left;
+							width: 172px;
+							height: 28px;
+							text-align: center;
+							line-height: 28px;
+							color: #666666;
+						}
+						&:hover{
+							background:url(../img/about_icon_11.jpg) no-repeat #01a1ff 34px 13px;
+							a{
+								color: #fff;
+							}
+						}
+					}
+					.active{
+						background:url(../img/about_icon_11.jpg) no-repeat #01a1ff 34px 13px;
+						a{
+							color: #fff;
+						}
+					}
+				}
+			}
+			.search{
+				width:200px;
+				height: 165px;
+				margin-top: 40px;
+				input{
+					width: 174px;
+					height: 36px;
+					display: block;
+					border: 1px solid #cccccc;
+					margin: 8px auto;
+					background: url(../img/iconfont-fangdajing.jpg) no-repeat 151px 9px;
+				}
+			}
+			
+		}
+		
+		.sidebar-right{
+			width: 972px;
+			padding-top: 60px;
+			.current{
+				height: 46px;
+				box-sizing: border-box;
+				border-bottom:1px solid #d3d3d3;
+				h3{
+					padding-left: 31px;
+					box-sizing: border-box;
+					float: left;
+					font-size: 26px;
+					color: #33333;
+					background:url(../img/shuxian.gif) no-repeat 20px 0;
+					span{
+						font-size: 10px;
+						vertical-align: bottom;
+						color: #666666;
+					}
+				}
+				p{
+					float: right;
+					line-height: 46px;
+					color:#999999;
+					padding-right:20px;
+					span{
+						color:#01a1ff;
+					}
+				}
+			}
+			.content{
+				padding: 40px 20px 100px 20px;
+				.pro{
+					width: 930px;
+					height: 980px;
+					margin-bottom: 67px;
+					display:flex;
+					flex-direction:column;
+					justify-content:space-between;
+						&>div{
+							display:flex;
+							justify-content: space-between;
+							align-items: center;
+							a{
+								display:block;
+								div{
+									width: 280px;
+									height: 210px;
+									background: url(../img/pro-center1.jpg) no-repeat;
+									background-size: 280px auto;
+									display:flex;
+									flex-direction:column;
+									justify-content: flex-end;
+									span{
+										height: 30px;
+										line-height: 30px;
+										text-align: center;
+										background: #000000;
+										color: #fff;
+										opacity: 0.5;
+									}
+									&:hover{
+										span{
+											background: #01a1ff;
+											opacity: 1;
+										}
+										box-shadow: 1px 1px 7px #01a1ff;
+									}
+								}
+							}
+						}
+					
+				}
+				.active{
+					background:url(../img/date_12.jpg) no-repeat;
+					h3{
+						color: #01a1ff;
+					}
+				}
+				.page{
+					width: 972px;
+					height: 30px;
+					display: flex;
+					justify-content: center;
+					a{
+						div{
+							width: 30px;
+							background: #e5e5e5;
+							margin-right:5px;
+							p{
+								text-align: center;
+								line-height: 30px;
+								font-size: 12px;
+							}
+						}
+						&:nth-of-type(1){
+							div{
+								width: 92px;
+							}
+						}
+						&:nth-of-type(8){
+							div{
+								width: 92px;
+							}
+						}
+						.active{
+							background: #01a1ff;
+							color: #fff;
+						}
+					}
+					
+					
+				}
+			}
+		}
+	}
+}

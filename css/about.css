@@ -1,0 +1,168 @@
+@charset "utf-8";
+.content .banner {
+  width: 1920px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.content .banner ul {
+  width: 300%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content .banner ul li {
+  width: 33.333333%;
+  height: 100%;
+  float: left;
+}
+.content .banner .sub-nav {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 12px;
+}
+.content .banner .sub-nav span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  float: left;
+  background: #dfe1e3;
+  margin-right: 4px;
+}
+.content .banner .sub-nav .active {
+  background: #01a1ff;
+}
+.content .banner > span {
+  position: absolute;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+}
+.content .banner .prev {
+  left: 44px;
+  background: url(../img/index-xb2.png);
+}
+.content .banner .prev:hover {
+  background: url(../img/index-xb4.png);
+}
+.content .banner .next {
+  right: 44px;
+  background: url(../img/index-xb1.png);
+}
+.content .banner .next:hover {
+  background: url(../img/index-xb3.png);
+}
+.content .sidebar {
+  width: 1266px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content .sidebar .sidebar-left {
+  width: 245px;
+  padding: 60px 0 0 34px;
+}
+.content .sidebar .sidebar-left div {
+  width: 200px;
+  height: 340px;
+  box-sizing: border-box;
+  border: 1px solid #01a1ff;
+}
+.content .sidebar .sidebar-left div h3 {
+  background: #01a1ff;
+  height: 110px;
+}
+.content .sidebar .sidebar-left div h3 p:nth-of-type(1) {
+  height: 29px;
+  text-align: center;
+  padding-top: 32px;
+  color: #fff;
+  font-size: 16px;
+  background: url(../img/about_icon_07.jpg) no-repeat center bottom;
+}
+.content .sidebar .sidebar-left div h3 p:nth-of-type(2) {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 34px;
+}
+.content .sidebar .sidebar-left div ul {
+  padding-top: 9px;
+}
+.content .sidebar .sidebar-left div ul li {
+  width: 172px;
+  height: 28px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-bottom: 18px;
+  background: url(../img/about_icon_14.jpg) no-repeat #ffffff 34px 13px;
+}
+.content .sidebar .sidebar-left div ul li a {
+  float: left;
+  width: 172px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  color: #666666;
+}
+.content .sidebar .sidebar-left div ul li:hover {
+  background: url(../img/about_icon_11.jpg) no-repeat #01a1ff 34px 13px;
+}
+.content .sidebar .sidebar-left div ul li:hover a {
+  color: #fff;
+}
+.content .sidebar .sidebar-left div ul .active {
+  background: url(../img/about_icon_11.jpg) no-repeat #01a1ff 34px 13px;
+}
+.content .sidebar .sidebar-left div ul .active a {
+  color: #fff;
+}
+.content .sidebar .sidebar-right {
+  width: 972px;
+  padding-top: 60px;
+}
+.content .sidebar .sidebar-right .current {
+  height: 46px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d3d3d3;
+}
+.content .sidebar .sidebar-right .current h3 {
+  padding-left: 31px;
+  box-sizing: border-box;
+  float: left;
+  font-size: 26px;
+  color: #33333;
+  background: url(../img/shuxian.gif) no-repeat 20px 0;
+}
+.content .sidebar .sidebar-right .current h3 span {
+  font-size: 10px;
+  vertical-align: bottom;
+  color: #666666;
+}
+.content .sidebar .sidebar-right .current p {
+  float: right;
+  line-height: 46px;
+  color: #999999;
+  padding-right: 20px;
+}
+.content .sidebar .sidebar-right .current p span {
+  color: #01a1ff;
+}
+.content .sidebar .sidebar-right .content {
+  padding: 40px 17px 91px 21px;
+  overflow: hidden;
+}
+.content .sidebar .sidebar-right .content span {
+  float: left;
+  width: 560px;
+  height: 308px;
+  padding: 0 32px 0 0;
+  background: url(../img/zhuozi.jpg) no-repeat;
+}
+.content .sidebar .sidebar-right .content p {
+  font-size: 14px;
+  text-indent: 2em;
+  line-height: 24px;
+  margin-bottom: 27px;
+}

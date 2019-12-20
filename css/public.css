@@ -1,0 +1,158 @@
+@charset "utf-8";
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.fc {
+  clear: both;
+}
+.pub-width {
+  width: 1276px;
+  margin: 0 auto;
+}
+.warp-width {
+  width: 1920px;
+  background: #fff;
+}
+/* 头 */
+.header {
+  background: #ffffff;
+}
+.header > div {
+  height: 85px;
+}
+.header > div .logo {
+  width: 353px;
+  height: 100%;
+}
+.header > div .logo a {
+  width: 149px;
+  height: 43px;
+  float: left;
+  margin: 21px 0 0 33px;
+}
+.header > div .nav {
+  width: 720px;
+  height: 100%;
+}
+.header > div .nav li {
+  float: left;
+  height: 85px;
+  line-height: 85px;
+  padding: 0 29px;
+}
+.header > div .nav li a {
+  float: left;
+  color: #404040;
+  border-bottom: 4px solid transparent;
+  font-size: 15px;
+  height: 81px;
+}
+.header > div .nav li a:hover {
+  color: #01a1ff;
+  border-bottom: 4px solid #01a1ff;
+}
+.header > div .nav li .active {
+  color: #01a1ff;
+  border-bottom: 4px solid #01a1ff;
+}
+.header > div .language {
+  width: 203px;
+  height: 100%;
+  padding-left: 61px;
+  box-sizing: border-box;
+}
+.header > div .language button {
+  width: 50px;
+  height: 50px;
+  border: 1px solid transparent;
+  background: #fff;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+.header > div .language .active {
+  border: 1px solid #666666;
+}
+/* 脚部 */
+.footer {
+  width: 100%;
+  height: 327px;
+  box-sizing: border-box;
+  padding-top: 41px;
+  background: #01a1ff;
+}
+.footer .foo-top {
+  height: 245px;
+}
+.footer .foo-top .all {
+  width: 810px ;
+  height: 100%;
+}
+.footer .foo-top .all div {
+  width: 131px;
+  float: left;
+  padding-left: 31px;
+}
+.footer .foo-top .all div h3 {
+  height: 34px;
+}
+.footer .foo-top .all div h3 a {
+  float: left;
+  height: 29px;
+  border-bottom: 2px solid #99d9ff;
+  color: #fff;
+  font-size: 14px;
+  line-height: 29px;
+}
+.footer .foo-top .all div ul {
+  padding-top: 9px;
+}
+.footer .foo-top .all div ul li {
+  height: 31px;
+}
+.footer .foo-top .all div ul li a {
+  color: #fff;
+  font-size: 12px;
+  line-height: 31px;
+}
+.footer .foo-top .address {
+  width: 466px;
+  height: 100%;
+  padding: 10px 0 0 115px;
+  box-sizing: border-box;
+}
+.footer .foo-top .address p {
+  overflow: hidden;
+}
+.footer .foo-top .address input {
+  width: 142px;
+  height: 28px;
+  float: left;
+  margin-right: 20px;
+}
+.footer .foo-top .address textarea {
+  width: 306px;
+  height: 104px;
+  resize: none;
+  overflow: hidden;
+}
+.footer .foo-top .address button {
+  width: 106px;
+  height: 28px;
+}
+.footer .foo-top .address .border {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 12px;
+  border: 1px solid #fff;
+  background: transparent;
+}
+.footer .foo-bot p {
+  border-top: 1px solid #fff;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+}

@@ -1,0 +1,227 @@
+@charset "utf-8";
+.content .banner {
+  width: 1920px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.content .banner ul {
+  width: 300%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content .banner ul li {
+  width: 33.333333%;
+  height: 100%;
+  float: left;
+}
+.content .banner .sub-nav {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 12px;
+}
+.content .banner .sub-nav span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  float: left;
+  background: #dfe1e3;
+  margin-right: 4px;
+}
+.content .banner .sub-nav .active {
+  background: #01a1ff;
+}
+.content .banner > span {
+  position: absolute;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+}
+.content .banner .prev {
+  left: 44px;
+  background: url(../img/index-xb2.png);
+}
+.content .banner .prev:hover {
+  background: url(../img/index-xb4.png);
+}
+.content .banner .next {
+  right: 44px;
+  background: url(../img/index-xb1.png);
+}
+.content .banner .next:hover {
+  background: url(../img/index-xb3.png);
+}
+.content .sidebar {
+  width: 1266px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content .sidebar .sidebar-left {
+  width: 245px;
+  padding: 60px 0 0 34px;
+}
+.content .sidebar .sidebar-left div {
+  width: 200px;
+  height: 242px;
+  box-sizing: border-box;
+  border: 1px solid #01a1ff;
+}
+.content .sidebar .sidebar-left div h3 {
+  background: #01a1ff;
+  height: 110px;
+}
+.content .sidebar .sidebar-left div h3 p:nth-of-type(1) {
+  height: 29px;
+  text-align: center;
+  padding-top: 32px;
+  color: #fff;
+  font-size: 16px;
+  background: url(../img/about_icon_07.jpg) no-repeat center bottom;
+}
+.content .sidebar .sidebar-left div h3 p:nth-of-type(2) {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 34px;
+}
+.content .sidebar .sidebar-left div > p {
+  color: #01a1ff;
+  font-size: 16px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.content .sidebar .sidebar-left div > p:nth-of-type(1) {
+  margin-top: 16px;
+}
+.content .sidebar .sidebar-left div > p span {
+  border-bottom: 2px solid #01a1ff;
+}
+.content .sidebar .sidebar-left .search {
+  width: 200px;
+  height: 165px;
+  margin-top: 40px;
+}
+.content .sidebar .sidebar-left .search input {
+  width: 174px;
+  height: 36px;
+  display: block;
+  border: 1px solid #cccccc;
+  margin: 8px auto;
+  background: url(../img/iconfont-fangdajing.jpg) no-repeat 151px 9px;
+}
+.content .sidebar-right {
+  width: 972px;
+  padding-top: 60px;
+}
+.content .sidebar-right .current {
+  height: 46px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d3d3d3;
+}
+.content .sidebar-right .current h3 {
+  padding-left: 31px;
+  box-sizing: border-box;
+  float: left;
+  font-size: 26px;
+  color: #33333;
+  background: url(../img/shuxian.gif) no-repeat 20px 0;
+}
+.content .sidebar-right .current h3 span {
+  font-size: 10px;
+  vertical-align: bottom;
+  color: #666666;
+}
+.content .sidebar-right .current p {
+  float: right;
+  line-height: 46px;
+  color: #999999;
+  padding-right: 20px;
+}
+.content .sidebar-right .current p span {
+  color: #01a1ff;
+}
+.content .sidebar-right .content {
+  padding: 32px 7px 120px 20px;
+  overflow: hidden;
+}
+.content .sidebar-right .content span {
+  float: left;
+  width: 560px;
+  height: 308px;
+  padding: 0 32px 0 0;
+  background: url(../img/zhuozi.jpg) no-repeat;
+}
+.content .sidebar-right .content > p {
+  font-size: 14px;
+  text-indent: 2em;
+  line-height: 24px;
+  margin-bottom: 27px;
+}
+.content .sidebar-right .content iframe {
+  margin-bottom: 22px;
+}
+.content .sidebar-right .content .input {
+  width: 945px;
+  overflow: hidden;
+}
+.content .sidebar-right .content .input .input-left {
+  padding-right: 75px;
+}
+.content .sidebar-right .content .input .input-left h3 {
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+.content .sidebar-right .content .input .input-left div {
+  margin-bottom: 10px;
+}
+.content .sidebar-right .content .input .input-left div p {
+  float: left;
+  vertical-align: bottom;
+  margin-top: 3px;
+  font-size: 15px;
+}
+.content .sidebar-right .content .input .input-left div input {
+  width: 278px;
+  height: 28px;
+  border: 1px solid #cccccc;
+}
+.content .sidebar-right .content .input .input-left div textarea {
+  width: 435px;
+  height: 114px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  resize: none;
+  overflow: hidden;
+}
+.content .sidebar-right .content .input .input-left div button {
+  width: 95px;
+  height: 30px;
+}
+.content .sidebar-right .content .input .input-left div button:nth-of-type(1) {
+  background: #01a1ff;
+  color: #fff;
+  margin-right: 20px;
+}
+.content .sidebar-right .content .input .input-left div button:nth-of-type(2) {
+  background: #fff;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  color: #999999;
+}
+.content .sidebar-right .content .input .input-left div:nth-of-type(4) {
+  margin: 0;
+}
+.content .sidebar-right .content .input .input-right h3 {
+  font-size: 19px;
+  margin-bottom: 9px;
+}
+.content .sidebar-right .content .input .input-right p {
+  line-height: 32px;
+  font-size: 14px;
+  color: #666666;
+}
